@@ -1,26 +1,21 @@
 {
   "name": "aws",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/HarshitDevHub/aws#readme",
+  "bugs": {
+    "url": "https://github.com/HarshitDevHub/aws/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HarshitDevHub/aws.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "eslint"
-  },
-  "dependencies": {
-    "next": "16.4.2",
-    "react": "19.3.0",
-    "react-dom": "19.3.0"
-  },
-  "devDependencies": {
-    "@tailwindcss/turbopack": "^4",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "eslint": "^9",
-    "eslint-config-next": "16.4.2",
-    "tailwindcss": "^4",
-    "typescript": "^5"
+    "test": "node test.js",
+    "run": "node index.js"
   }
 }
